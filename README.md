@@ -1,6 +1,22 @@
 # MuniMap
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.3.
+An Angular2 coding exercise to use [d3.js](http://d3js.org) to draw real time positions of San Francisco Muni buses and trains using data from [NextBus](http://www.nextbus.com).
+
+Data is refreshed every 15 seconds and the results are able to be filtered by `routeTag`.
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.3 and uses:
+
+- node v.6.9.0
+- npm v3.10.8
+
+The [d3-ng2-service](https://github.com/tomwanzek/d3-ng2-service) is used for simplified import and use of D3.
+
+## Getting started
+
+```angular2html
+npm install
+ng serve
+```
 
 ## Development server
 
