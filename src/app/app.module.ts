@@ -9,6 +9,7 @@ import { D3Service } from 'd3-ng2-service';
 
 import { AppComponent } from './app.component';
 import { DataFileService } from './service/data-file.service';
+import { DropdownDirective } from './shared/dropdown.directive';
 import { MuniMapComponent } from './muni-map/muni-map.component';
 import { DataFeedService } from './service/data-feed.service';
 import { VehiclesService } from './service/vehicles.service';
@@ -16,6 +17,7 @@ import { VehiclesService } from './service/vehicles.service';
 @NgModule({
   declarations: [
     AppComponent,
+    DropdownDirective,
     MuniMapComponent
   ],
   imports: [

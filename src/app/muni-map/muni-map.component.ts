@@ -16,6 +16,7 @@ import { VehiclesService } from '../service/vehicles.service';
 export class MuniMapComponent implements OnInit {
 
   vehiclesChangedSubscription: Subscription;
+  routes;
 
   private d3: D3;
   private projection: any;
